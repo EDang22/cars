@@ -17,7 +17,6 @@ case "$choice" in
 		read model
 		echo "$year:$make:$model" >> My_old_cars;;
 	"2") sort My_old_cars;;
-	"Q") echo "goodbye";;
 esac
 if [ "$choice" != "Q" ]
 then
